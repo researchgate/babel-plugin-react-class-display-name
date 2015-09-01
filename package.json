@@ -1,6 +1,6 @@
 {
   "name": "babel-plugin-react-class-display-name",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "Add displayName to React.Component classes",
   "repository": "researchgate/babel-plugin-react-class-display-name",
   "license": "MIT",

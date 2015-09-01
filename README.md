@@ -1,4 +1,4 @@
-# babel-plugin-react-display-name
+# babel-plugin-react-class-display-name
 
 Add displayName to ES6 classes that extend React.Component
 
