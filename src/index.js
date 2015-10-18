@@ -3,7 +3,7 @@ export default function ({ Plugin, types: t }) {
     visitor: {
       ClassDeclaration(node, parent, scope, file) {
           if (this.get("superClass").matchesPattern("React.Component")) {
-              this.insertAfter([
+              (parent.type === 'ExportDefaultDeclaration' ? this.parentPath : this).insertAfter([ // take the "export default class ..." form into account
                   t.expressionStatement(t.assignmentExpression(
                       "=",
                       t.memberExpression(node.id, t.identifier("displayName")),
