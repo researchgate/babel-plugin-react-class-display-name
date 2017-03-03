@@ -1,5 +1,7 @@
 # babel-plugin-react-class-display-name
 
+**Unmaintained: This plugin is not maintained, if you are interessted in maintaining feel free to contact @danez**
+
 Add displayName to ES6 classes that extend React.Component
 
 ## Installation
